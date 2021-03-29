@@ -22,4 +22,4 @@ OUTPUTS
     
     PS C:\>Get-Content C:\Computers.txt | Telnet -Port 80
     
-    This command will take all the computernames from a text file and pipe each computername to Telnet Cmdlet to report Port 80 accessibility.
+    Take all the computernames from a text file and pipe each to the Telnet CMDLET to report Port 80 accessibility.
