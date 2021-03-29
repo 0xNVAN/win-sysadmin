@@ -2,17 +2,21 @@
 Windows System Administration - Custom Windows Powershell CMDLET for Telnet
 
 NAME
+    
     Telnet
     
 SYNOPSIS
+    
     Tests the connectivity between two computers on a TCP Port
     
     
 SYNTAX
-    Telnet [-ComputerName] <String> [-Port] <Int32> [[-Timeout] <Int32>] [<CommonParameters>]
+   
+   Telnet [-ComputerName] <String> [-Port] <Int32> [[-Timeout] <Int32>] [<CommonParameters>]
     
     
 DESCRIPTION
+    
     The Telnet command tests the connectivity between two computers on a TCP Port. 
     By running this command, you can determine if specific service is running on Server.
     
