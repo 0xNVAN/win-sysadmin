@@ -62,8 +62,8 @@ OUTPUTS
     
     PS C:\>Telnet -ComputerName DC1 -Port 3389
     
-    This command reports if DC1 can be connected on port 3389 which is default port for Remote Desktop Protocol (RDP). By simply running this command, you can check if 
-    Remote Desktop is enabled on computer DC1.
+    This command reports if DC1 can be connected on port 3389 (default port for RDP). 
+    By simply running this command, you can check if RDP is enabled on computer DC1.
      
         
     -------------------------- EXAMPLE 2 --------------------------
@@ -75,6 +75,6 @@ OUTPUTS
         
     -------------------------- EXAMPLE 3 --------------------------
     
-    PS C:\>Get-Content C:\Computers.txt | Telnet -Port 80
+    PS C:\>Get-Content C:\Computers.txt | Telnet -Port 443
     
-    This command will take all the computernames from a text file and pipe each computername to Telnet Cmdlet to report if all the computers are accessible on Port 80.
+    This command will take all the 'computernames' from a txt file and check accessibility against port 443.
