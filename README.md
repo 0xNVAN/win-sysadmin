@@ -1,6 +1,6 @@
 # Windows System Administration 
 
-## Custom Windows Powershell CMDLET for Telnet
+### Custom Windows Powershell CMDLET for Telnet
 
 Launch Windows PowerShell console with administrator privilege, then run to create the file:
 
@@ -57,7 +57,7 @@ Copy the below into the Windows PowerShell ISE session:
 
 
 
-OUTPUTS
+##### OUTPUTS
     
     -------------------------- EXAMPLE 1 --------------------------
     
